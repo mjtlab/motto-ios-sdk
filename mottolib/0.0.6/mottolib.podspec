@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
    s.static_framework = true
    
    s.frameworks = 'UIKit', 'WebKit', 'Foundation', 'CFNetwork'
-   s.dependency 'SnapKit', '~> 5.0.0'
+   s.dependency 'SnapKit', '~> 5.6.0'
    s.dependency 'Then'
    s.dependency 'Alamofire'
  #  s.dependency 'Google-Mobile-Ads-SDK', '<= 11.5.0'
